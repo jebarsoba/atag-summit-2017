@@ -1,7 +1,0 @@
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\bin\Debug\netcoreapp1.1\Summit2017_2.deps.json
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\bin\Debug\netcoreapp1.1\Summit2017_2.dll
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\obj\Debug\netcoreapp1.1\Summit2017_2.csprojResolveAssemblyReference.cache
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\obj\Debug\netcoreapp1.1\Summit2017_2.AssemblyInfo.cs
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\bin\Debug\netcoreapp1.1\Summit2017_2.pdb
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\obj\Debug\netcoreapp1.1\Summit2017_2.dll
-C:\Users\adrian.poplavsky\Documents\Visual Studio 2017\Projects\ConsoleApp1\Summit2017_2\obj\Debug\netcoreapp1.1\Summit2017_2.pdb
