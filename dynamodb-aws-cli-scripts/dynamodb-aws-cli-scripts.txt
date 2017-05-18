@@ -1,0 +1,2 @@
+aws dynamodb create-table --table-name ATAG17_Presentaciones_4 --attribute-definitions AttributeName=PresentationID,AttributeType=S AttributeName=Votes,AttributeType=N --key-schema AttributeName=PresentationID,KeyType=HASH AttributeName=Votes,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
+aws dynamodb batch-write-item --request-items file://request-items.json

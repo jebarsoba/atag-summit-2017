@@ -1,0 +1,20 @@
+{
+    "ATAG17_Presentaciones_4": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "PresentationID": {"S": "DynamoDB Presentation"},
+                    "Votes": {"N": "1"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PresentationID": {"S": "IoT Presentation"},
+                    "Votes": {"N": "0"}
+                }
+            }
+        }
+    ]
+}
