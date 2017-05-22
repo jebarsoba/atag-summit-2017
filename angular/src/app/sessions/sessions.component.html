@@ -1,34 +1,22 @@
-<table>
+<table class="table">
 	<tr>
 		<th>Day</th>
   	<th>Start</th>
   	<th>End</th>
   	<th>Activity</th>
-		<th>Hosts</th>
+		<th>Type</th>
   	<th>Votes</th>
+  	<th></th>
+  	<th></th>
 	</tr>
-	<tr>
-		<td>{{sessions[0].Day}}</td>
-		<td>{{sessions[0].Start}}</td>
-		<td>{{sessions[0].End}}</td>
-		<td>{{sessions[0].Activity}}</td>
-		<td>{{sessions[0].Hosts}}</td>
-		<td>{{sessions[0].Votes}}</td>
-	</tr>
-	<tr>
-		<td>{{sessions[1].Day}}</td>
-		<td>{{sessions[1].Start}}</td>
-		<td>{{sessions[1].End}}</td>
-		<td>{{sessions[1].Activity}}</td>
-		<td>{{sessions[1].Hosts}}</td>
-		<td>{{sessions[1].Votes}}</td>
-	</tr>
-	<tr>
-		<td>{{sessions[2].Day}}</td>
-		<td>{{sessions[2].Start}}</td>
-		<td>{{sessions[2].End}}</td>
-		<td>{{sessions[2].Activity}}</td>
-		<td>{{sessions[2].Hosts}}</td>
-		<td>{{sessions[2].Votes}}</td>
+	<tr *ngFor="let session of sessions">
+		<td>{{session.Day}}</td>
+		<td>{{session.Start}}</td>
+		<td>{{session.End}}</td>
+		<td><strong>{{session.Activity}}</strong></td>
+		<td>{{session.Type}}</td>
+		<td>{{session.Votes}}</td>
+		<td><i class="fa fa-thumbs-o-up fa-2x" style="color:blue;" aria-hidden="true"></i></td>
+		<td><i class="fa fa-thumbs-o-down fa-2x" style="color:red;" aria-hidden="true"></i></td>
 	</tr>
 </table>

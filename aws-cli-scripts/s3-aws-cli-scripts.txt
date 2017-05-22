@@ -1,0 +1,1 @@
+aws s3 cp ../angular/src s3://atag-summit-2017-grupo4/ --recursive

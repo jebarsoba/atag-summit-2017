@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Summit ATAG 2017 Agenda';
+  title = 'ATAG Summit 2017';
 }

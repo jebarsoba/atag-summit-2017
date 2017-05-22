@@ -11,4 +11,4 @@ cd dotnet-lambda
 dotnet restore  
 dotnet pusblish  
 
-To run the DynamoDB setup scripts install AWS CLI (Windows:  http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#install-msi-on-windows), and run "aws configure" first.
+To run the DynamoDB/S3 scripts install AWS CLI (Windows:  http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#install-msi-on-windows), and run "aws configure" first.
